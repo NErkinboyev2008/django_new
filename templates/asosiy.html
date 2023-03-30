@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href=" {% static 'style.css' %} ">
+</head>
+<body>
+    
+    <nav class="navbar container">
+<h1>logo</h1>
+<ul class="lists">
+    <li><a href="/">Home</a></li>
+    <li><a href="/andijon/">Andijon</a></li>
+    <li><a href="/namangan/">Namangan</a></li>
+    <li><a href="/fargona/">Fargona</a></li>
+    <li><a href="/buxoro/">Buxoro</a></li>
+    <li><a href="/toshkent/">Toshkent</a></li>
+    <li><a href="/jizzax/">Jizzax</a></li>
+    <li><a href="/sirdaryo/">Sirdaryo</a></li>
+    <li><a href="/surxandaryo/">Surxandaryo</a></li>
+    <li><a href="/xorazm/">Xorazm</a></li>
+    <li><a href="/qoraqolpogiston/">Qoraqolpogiston</a></li>
+    <li><a href="/navoiy/">Navoiy</a></li>
+    
+    
+  
+</ul>
+
+</nav>
+
+    {% block content %}
+    {% endblock %}
+
+</body>
+</html>
